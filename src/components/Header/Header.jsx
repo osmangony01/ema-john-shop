@@ -1,12 +1,13 @@
 import React from 'react';
+import './header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className='header'>
             <div>
-                <img src="" alt="" />
+                <img src="./images/Logo.svg" alt="" />
             </div>
-            <div>
+            <div className='nav-link'>
                 <a href="/order">Order</a>
                 <a href="/review">Order Review</a>
                 <a href="/inventory">Manage Inventory</a>
@@ -16,5 +17,4 @@ const Header = () => {
     );
 };
 
-export default Header;<div>
-<img src="" alt="" /></div>
+export default Header;
