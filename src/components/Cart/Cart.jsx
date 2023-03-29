@@ -8,7 +8,7 @@ const Cart = () => {
             <p>Total Price: $</p>
             <p>Total Shipping charge: $</p>
             <p>Tax: $</p>
-            <h5>Grand Total: $</h5>
+            <h4>Grand Total: $</h4>
         </div>
     );
 };
